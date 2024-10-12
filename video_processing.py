@@ -154,7 +154,7 @@ def check_and_extract_disclaimer(extracted_texts):
         You are tasked with reviewing a list of texts to identify any disclaimer or warning messages.
         Multiple texts in the list may be similar. 
         Your goal is to check if a disclaimer or warning is present.
-        If a disclaimer is found, extract a single best version and return the following JSON format:
+        If a disclaimer is found, extract a single and complete version and return the following JSON format:
         {
             "disclaimer_is_exist": "",
             "disclaimer_text": "Extracted disclaimer text here"
