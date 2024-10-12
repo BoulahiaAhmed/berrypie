@@ -9,10 +9,10 @@ from dotenv import load_dotenv
 
 
 # Load environment variables from a .env file
-#GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
-load_dotenv()
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+# load_dotenv()
+# GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 
 # Define TypedDict for Gemini response
